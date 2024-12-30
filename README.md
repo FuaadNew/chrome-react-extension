@@ -1,23 +1,7 @@
 Chrome Extension with React + Parcel
 A boilerplate project for building Chrome extensions using React and Parcel. This extension renders a React app directly into the content of a website when the user clicks the extension icon. It's designed to be a starting point for Chrome extension development using modern JavaScript tools.
 
-Project Structure
-graphql
-Copy code
-├── icon.png                # Icon for the extension
-├── manifest.json           # Manifest file with extension metadata
-├── node_modules            # Node.js modules
-├── .babelrc                # Babel configuration for transpiling JS
-├── package.json            # Project dependencies and build scripts
-└── src
-    ├── build 
-    │   └── main.js         # Compiled JS file used as content script
-    ├── js
-    │   ├── components      # React components
-    │   │   └── Header.js   # Example React component
-    │   ├── main.js         # Main JS file that renders the React app
-    │   └── popup.js        # JS file for popup logic
-    └── popup.html          # Popup HTML displayed on clicking the extension icon
+
 Features
 Render a React app in the visited website when a user clicks the extension icon.
 Popup to trigger rendering of the React app.
